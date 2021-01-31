@@ -27,6 +27,10 @@ h6 {
   font-family: 'Shrikhand', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+.twitter-share-button {
+  vertical-align: bottom;
+}
+
 header.masthead {
   position: relative;
   background: url("../img/bg-masthead.png") no-repeat center center;
