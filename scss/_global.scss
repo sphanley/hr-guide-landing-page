@@ -16,3 +16,7 @@ h6 {
 .btn {
   background: #324B9A;
 }
+
+.navbar-brand {
+  @include header-font;
+}
