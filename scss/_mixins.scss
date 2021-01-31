@@ -11,3 +11,11 @@
 @mixin body-font {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+@mixin header-font {
+  font-family: 'Shrikhand', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin button-font {
+  font-family: 'Shrikhand', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

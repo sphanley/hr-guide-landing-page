@@ -8,6 +8,7 @@ h3,
 h4,
 h5,
 h6 {
-  @include body-font;
+  @include header-font;
+  color: #324B9A;
   font-weight: 700;
 }

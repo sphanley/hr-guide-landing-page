@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Landing Page v5.0.9 (https://startbootstrap.com/theme/landing-page)
- * Copyright 2013-2020 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
@@ -14,40 +14,43 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Shrikhand', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #324B9A;
   font-weight: 700;
 }
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("../img/bg-masthead.png") no-repeat center center;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-header.masthead .overlay {
-  position: absolute;
-  background-color: #212529;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
+  height: calc(100vh - 50px);
+  display: flex;
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 4rem;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #e9ecef;
+}
+
+header.masthead .btn {
+  font-family: 'Shrikhand', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  min-width: 140px;
+  margin-bottom: 10px;
+}
+
+header.masthead .container {
+  margin-top: auto;
+  margin-bottom: 6rem;
 }
 
 @media (min-width: 768px) {
-  header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-  }
   header.masthead h1 {
-    font-size: 3rem;
+    font-size: 4rem;
+  }
+  header.masthead .container {
+    margin-top: auto;
+    margin-bottom: 12rem;
   }
 }
 
@@ -56,13 +59,25 @@ header.masthead h1 {
 }
 
 .showcase .showcase-img {
-  min-height: 30rem;
+  height: 33vw;
   background-size: cover;
 }
 
 @media (min-width: 768px) {
   .showcase .showcase-text {
-    padding: 7rem;
+    padding: 5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .showcase .showcase-text {
+    max-height: 33vw;
+  }
+}
+
+@media (max-width: 1199px) {
+  .showcase .showcase-img {
+    height: 66vw;
   }
 }
 
@@ -118,6 +133,10 @@ header.masthead h1 {
   top: 0;
   left: 0;
   opacity: 0.3;
+}
+
+.call-to-action button {
+  margin: .5rem;
 }
 
 footer.footer {

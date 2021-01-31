@@ -3,12 +3,22 @@
     padding: 3rem;
   }
   .showcase-img {
-    min-height: 30rem;
+    height: 33vw;
     background-size: cover;
   }
   @media (min-width: 768px) {
     .showcase-text {
-      padding: 7rem;
+      padding: 5rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    .showcase-text {
+      max-height: 33vw;
+    }
+  }
+  @media (max-width: 1199px) {
+    .showcase-img {
+      height: 66vw;
     }
   }
 }
