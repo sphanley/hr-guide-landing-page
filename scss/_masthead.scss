@@ -1,15 +1,15 @@
 header.masthead {
   position: relative;
-  // background-color: $gray-800;
   background: url('../img/bg-masthead.png') no-repeat center center;
   @include background-cover;
   height: calc(100vh - 50px);
   display: flex;
 
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: $gray-200;
+    color: $white;
+    -webkit-text-stroke-color: #324B9A;
   }
 
   .btn {
@@ -24,7 +24,7 @@ header.masthead {
   }
   @media (min-width: 768px) {
     h1 {
-      font-size: 4rem;
+      font-size: 5rem;
     }
     .container {
       margin-top: auto;
