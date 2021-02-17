@@ -59,7 +59,7 @@ header.masthead .container {
 
 @media (min-width: 768px) {
   header.masthead h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   header.masthead .container {
     margin-top: auto;
