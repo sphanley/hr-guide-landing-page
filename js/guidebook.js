@@ -1,5 +1,5 @@
     // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
-    var PUBLISHABLE_KEY = 'pk_test_51IEbYeB9YJ6A11E3rNPsbFnP2q8GFM7Bbp8IC6EbKPf6VAWGixs2S9glPcHWGvkG27ReGWhhjxFsbULLWaUBESs200ZDB5ErBC';
+    var PUBLISHABLE_KEY = 'pk_live_51IEbYeB9YJ6A11E39xWcT1HtJ7nDO7HgiiApKZX5QBW5WjWNN2RdrEaSVTVUrrvdX9lsGNFj3g4q5HPDYJaGf3T500UAXJfma9';
     // Replace with the domain you want your users to be redirected back to after payment
     var DOMAIN = location.href.replace(/[^/]*$/, '');
 
