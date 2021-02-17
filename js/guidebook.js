@@ -34,7 +34,7 @@
             successUrl:
               DOMAIN + 'success.html?session_id={CHECKOUT_SESSION_ID}',
             cancelUrl:
-              DOMAIN + 'index.html',
+              DOMAIN,
           })
           .then(handleResult);
       });
